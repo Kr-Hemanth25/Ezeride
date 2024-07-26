@@ -1,0 +1,65 @@
+@media(max-width:600px){
+    .home{
+        display: block;
+        width: 100%;
+        height: 40rem;
+    }
+    .home2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 20rem;
+        width: 25rem;
+    }
+    .ride{
+            display: flex;
+            /* grid-template-columns: 0.5fr 1.5fr 0.5fr; */
+            height: 10rem;
+            width: 100%;
+            background-color: var(--main);
+            position: relative;
+            bottom: 20rem;
+    }
+    .forms{
+        background-color: black;
+        margin: 4rem;
+        border-radius: 1rem;
+        bottom: 5rem;
+        height: 26rem;
+        width: 20rem;
+    }
+    .date{
+        width: 16rem;
+        position: relative;
+        right: 5rem;
+    }
+    .button{
+        position: relative;
+    right: 5rem;
+    }
+    .pat{
+        display:block;
+        /* flex-direction: column; */
+        /* height: ; */
+    }
+    .audi{
+        visibility: hidden;
+    }
+    .reviews{
+        display: grid;
+        grid-template-rows: 0fr 1fr 0fr;
+        height: 175vh;
+    }
+    .list ul{
+        visibility:hidden;
+    }
+    .nav{
+        height: 5vh;
+
+    }
+    .nav img{
+        height: 5vh;
+        left:0vw;
+    }
+
+}
