@@ -1,65 +1,253 @@
-@media(max-width:600px){
-    .home{
-        display: block;
-        width: 100%;
-        height: 40rem;
+/* General styles */
+
+body {
+    margin: 0;
+    font-family: 'Rethink Sans', sans-serif;
+}
+
+.main {
+    width: 100vw;
+    /* margin: 0 auto; */
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main);
+    height: 100vh;
+}
+
+.logo img {
+    height: 10vh; /* Adjust as needed */
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh; /* Adjust as needed */
+    background: white;
+    padding: 0 5vw;
+}
+
+.list ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list ul li {
+    margin: 0 2vw;
+}
+
+.list ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.waste {
+    height: 10vh; /* Adjust as needed */
+    background: white;
+}
+
+.home2 {
+    text-align: center;
+}
+
+.info {
+    font-size: 4vw; /* Adjust as needed */
+    font-weight: bold;
+}
+
+.vehicle {
+    display: flex;
+    flex-direction: column;
+}
+
+.vehicles ul {
+    padding: 0;
+    list-style: none;
+}
+
+.v {
+    display: flex;
+    align-items: center;
+    padding: 2vw;
+    border-bottom: 1px solid #ddd;
+}
+
+.vimg img {
+    height: 8vh; /* Adjust as needed */
+}
+
+.cinfo {
+    flex: 1;
+}
+
+.pinfo {
+    font-size: 2vw; /* Adjust as needed */
+    font-weight: bold;
+}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+    .main {
+        width: 100vw;
+        margin: 0 auto;
     }
-    .home2{
+    
+    .home {
+        height: 70vh;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .audi {
+        display: none;
+    }
+
+    .reviews {
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+        gap: 2vw;
+        height: auto;
+    }
+
+    .list ul {
+        display: none;
+    }
+
+    .nav {
+        height: 6vh; /* Adjust as needed */
+        padding: 0 3vw;
+    }
+
+    .nav img {
+        height: 6vh; /* Adjust as needed */
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    .ride {
+        flex-direction: column;
+    }
+
+    .forms {
+        margin: 2vw;
+        width: 100%;
+    }
+
+    .date {
+        width: 100%;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    .pat {
+      display: flex;
+      flex-direction: column;
+        height: auto;
+    }
+
+    .rcol {
+        height: auto;
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ride22 {
+        height: auto;
+        width: 100%;
+    }
+
+    .us {
+        width: 100%;
+        height: auto;
+    }
+
+    .comm {
+        width: 100%;
+        margin: 0;
+        position: relative;
+        top:5vh;
+        gap:2vh;
+    }
+
+    .com {
+        font-size: 3vw; /* Adjust as needed */
+    }
+
+    .social {
+        margin: 2vw;
+        text-align: center;
+        position: relative;
+        top: 15vh;
+    }
+
+    .v {
+        height: auto;
+        width: 100%;
+    }
+
+    .pinfo {
+        font-size: 2vw; /* Adjust as needed */
+    }
+
+    .down{
+        width: 100vw;
+        z-index: 1000;
+        height: 0;
+        position: relative;
+        bottom: 25vh;
+    }
+    .vehicles{
+        width: 100vw;
+    }
+    .up{
+        height: 0;
+
+    }
+
+    .connect{
+        height: 60vh;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        height: 20rem;
-        width: 25rem;
-    }
-    .ride{
-            display: flex;
-            /* grid-template-columns: 0.5fr 1.5fr 0.5fr; */
-            height: 10rem;
-            width: 100%;
-            background-color: var(--main);
-            position: relative;
-            bottom: 20rem;
+        margin: 0;
     }
     .forms{
-        background-color: black;
-        margin: 4rem;
-        border-radius: 1rem;
-        bottom: 5rem;
-        height: 26rem;
-        width: 20rem;
+        width: 90vw;
     }
-    .date{
-        width: 16rem;
-        position: relative;
-        right: 5rem;
-    }
+
     .button{
-        position: relative;
-    right: 5rem;
-    }
-    .pat{
-        display:block;
-        /* flex-direction: column; */
-        /* height: ; */
-    }
-    .audi{
-        visibility: hidden;
-    }
-    .reviews{
-        display: grid;
-        grid-template-rows: 0fr 1fr 0fr;
-        height: 175vh;
-    }
-    .list ul{
-        visibility:hidden;
-    }
-    .nav{
-        height: 5vh;
-
-    }
-    .nav img{
-        height: 5vh;
-        left:0vw;
+        left: 0;
     }
 
+    .date{
+        width: 45vw;
+    }
 }
+
+@media (max-width: 1400px) and (min-width: 786px) {
+    .rcol {
+        height: 40vh; /* Adjust as needed */
+    }
+
+    .rideimg {
+        width: 100%;
+    }
+}
+
+
+
+
