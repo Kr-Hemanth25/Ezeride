@@ -15,7 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: var(--main);
-    height: 100vh;
+    height: 75vh;
 }
 
 .logo img {
@@ -48,40 +48,16 @@ body {
     font-weight: 500;
 }
 
-.waste {
-    height: 10vh; /* Adjust as needed */
-    background: white;
-}
 
 .home2 {
     text-align: center;
 }
 
 .info {
-    font-size: 4vw; /* Adjust as needed */
+    font-size: 2vw; /* Adjust as needed */
     font-weight: bold;
 }
 
-.vehicle {
-    display: flex;
-    flex-direction: column;
-}
-
-.vehicles ul {
-    padding: 0;
-    list-style: none;
-}
-
-.v {
-    display: flex;
-    align-items: center;
-    padding: 2vw;
-    border-bottom: 1px solid #ddd;
-}
-
-.vimg img {
-    height: 8vh; /* Adjust as needed */
-}
 
 .cinfo {
     flex: 1;
@@ -212,11 +188,14 @@ body {
         bottom: 25vh;
     }
     .vehicles{
-        width: 100vw;
+        width: 80vw;
     }
     .up{
         height: 0;
 
+    }
+    .form{
+        margin: 0;
     }
 
     .connect{
