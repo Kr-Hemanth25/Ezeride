@@ -72,7 +72,7 @@ header {
 
 .list ul {
     display: flex;
-    gap: 4rem;
+    gap: 2rem;
     padding: 2rem; /* Adjust as needed */
     padding-left: 10rem; /* Adjust as needed */
     background-color: var(--main3);

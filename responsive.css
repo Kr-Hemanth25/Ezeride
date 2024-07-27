@@ -153,6 +153,9 @@ body {
         height: auto;
         width: 100%;
     }
+    .class,.pas,.type{
+        font-size:4vw;
+    }
 
     .us {
         width: 100%;
@@ -161,7 +164,8 @@ body {
     .form{
         width: 70vw;
         margin: auto;
-        padding-top: 10vh;
+        position:relative;
+        top:15vh;
     }
 
     .comm {
@@ -205,7 +209,7 @@ body {
         bottom: 25vh;
     }
     .vehicles{
-        width: 90vw;
+        width: 85vw;
 
     }
     .up{
@@ -227,8 +231,11 @@ body {
         left: 0;
     }
     .v{
-        width: 90vw;
+        width: 85vw;
         height: 20vh;
+    }
+    .img{
+        width:50vw;
     }
 
 }
@@ -242,6 +249,10 @@ body {
         width: 100%;
     }
 }
+
+
+
+
 
 
 
