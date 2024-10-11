@@ -16,7 +16,7 @@ Ezeride is a static car rental application built using HTML, CSS, and JavaScript
 - **JavaScript**: For dynamic interactions and price calculations.
 
 ## Where To See:
--the website is hosted at:https://ezeride.freewebhostmost.com/
+-the website is hosted at:https://ezeride.netlify.app/
 
 ## Getting Started
 
